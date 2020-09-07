@@ -1,0 +1,15 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Enter Category Info</title>
+</head>
+<body>
+    <form action="/Home/Index" method="post">
+        <p>CategoryId: @Html.TextBox("CategoryId", "", new {size = 2 })</p>
+        <p>Description: @Html.TextBox("Description")</p>
+        <input type="submit" value="Save" />
+    </form>
+</body>
+</html>
